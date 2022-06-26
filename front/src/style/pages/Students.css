@@ -1,0 +1,33 @@
+body {
+    background-color: #f0f0f0 !important;
+}
+
+#main-card {
+    padding: 20px;
+    width: 80%;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu #search { 
+    width: 70%;
+    margin-right: 20px;
+}
+
+.menu #btn-create {
+    width: 20%;
+}
+
+
+
+
+
+.main {
+    margin-left: 6rem;
+    padding-top: 3rem;
+    width: calc(100vw - 6rem);
+    display: flex;
+    justify-content: center;
+}
