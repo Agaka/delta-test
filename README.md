@@ -24,3 +24,5 @@ imagens nas rotas de criação e edição.
 Na parte visual foi usada a biblioteca React para criação de uma SPA (Single Page Application) que consumiu a API anterior. Foi criado um pequeno sistema que fazia um
 CRUD para uma tabela de alunos. A aplicação é um gerenciamento de alunos, onde o usuário pode cadastrar, visualizar, editar e excluir os alunos. Também é possível inserir
 uma imagem para identificar cada aluno.
+
+Foi usado componentes próprios, biblioteca de estilo e de rotas para a criação da aplicação.
