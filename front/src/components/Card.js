@@ -8,7 +8,7 @@ export default function Card(props) {
         <div className='col-md-4 card-student' >
             <div className="card" >
                 <div className="card-head header">
-                    <img src={props.uri} className="card-img-top" alt="Avatar Image" />
+                    <img src={props.uri} className="card-img-top" alt="Avatar" />
                 </div>
                 <div className="card-body">
                     <h5 className="card-title">{props.name}</h5>

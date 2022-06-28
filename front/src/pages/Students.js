@@ -6,7 +6,7 @@ import Card from '../components/Card';
 import '../style/pages/Students.css';
 
 function Students() {
-    const [students, setStudents] = useState();
+    const [students, setStudents] = useState('');
     const [search, setSearch] = useState('');
 
     useEffect(() => {

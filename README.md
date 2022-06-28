@@ -10,7 +10,7 @@ No back execute o comando "nodemon index.js", a API está sendo ouvida na porta 
 ### Banco de Dados
 
 Foi usado MySQL para guardar os dados do projeto. Junto ao projeto tem o arquivo BD.sql que contém o código sql para criar um banco de dados e a tabela que está
-configurada no projeto.
+configurada no projeto. Basta executar em um SGBD o código sql.
 
 ### Back-End
 

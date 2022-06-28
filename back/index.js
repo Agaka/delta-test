@@ -4,6 +4,7 @@ const app = express()
 const router = require("./routes/routes")
 const cors = require("cors")
 const path = require("path")
+const port = process.env.PORT || 3333
  
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -24,6 +25,6 @@ app.use((req, res, next) => {
 
 app.use("/",router);
 
-app.listen(3333,() => {
-    console.log("Servidor rodando")
+app.listen(port,() => {
+    console.log("Servidor rodando na porta"+port)
 });

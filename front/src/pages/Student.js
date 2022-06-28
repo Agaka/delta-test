@@ -20,7 +20,7 @@ function Student() {
             setAddress(response.data.address);
             setImagePrev(response.data.image);
         })
-    }, []);
+    }, [id]);
 
     const handleSubmit = async (e) => {
         e.preventDefault()
